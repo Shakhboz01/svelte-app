@@ -30,7 +30,7 @@
   {#each filteredProviders as [category, providers]}
     {#if providers.length > 0}
       <div class="category-container">
-        <span class="provider-name">{category}</span>
+        <span clas s="provider-name">{category}</span>
         <ul>
           {#each providers as provider_data}
             <li>
